@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Overpass;
+    src: url(Overpass/Overpass-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: rgba(11,10,10,255);
+    color: white;
+    font-family: Overpass;
+    margin-right: 2%;
+    margin-left:2% ;
+}
+
+.head_content{
+    display: flex;
+    justify-content: space-between;    
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+
+ul{
+    display: flex;
+    gap: 5em;
+    list-style: none;
+}
+
+
+#pic{
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 15%;
+}
+
+.home{
+    display: flex;
+    gap: 150px;
+    margin-top: 8%;
+    margin-bottom: auto;
+}
+
+.home > .intro{
+    margin-right: 8%;
+
+}
+
+#article{
+display: block;
+width: 450px;
+margin-top: 15%;
+margin-left: 5%;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.sites{
+    display: flex;
+    margin: 5%;
+}
+
+.content{
+    margin-right:10% ;
+    margin-left: 3%;
+}
+
+.one{
+background-color: #2f3039;
+border-radius: 5px;
+
+
+}
+
+footer{
+    background-color: #2f3039;
+    border-radius: 5px;
+    margin: 5%;
+    
+}
+
+.foot_content{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right:5% ;
+}
+
+h3:hover{
+    color: cyan;
+    transform: scale(130%);
+    transition: 2s;
+}
+
+p{
+    border:1px;
+    padding: 10px;
+    color: #848689;
+}
+
+p:hover{
+    box-shadow: 5px 0px 25px grey;
+}
+
+img{
+    border-radius: 5px;
+}
+
+.image:hover{
+    border:5px solid cyan;
+    transform:scale(110%);
+    transition: 2s;
+
+}
+.intro{
+    color: #37a894;
+}
+
+button{
+    background-color: rgba(11,10,10,255);
+    color:#16dfbc;
+    border:3px solid #16dfbc ;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    } 
+
+button:hover{
+    cursor: pointer;
+    background-color: #16dfbc;
+    color:black;
+}
+
+a{
+    text-decoration: none;
+    color: #848689;
+}
+a:visited{
+    color:purple;
+}
+a:hover{
+    cursor: pointer;
+    color:whitesmoke;
+}
+a:active{
+    color:blue;
+}
